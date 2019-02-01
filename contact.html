@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SJ3, Multimédia, matériel,informatique, pc, photo">
+    <title>S3J Multimédia</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="m-0 p-0">
+
+
+    <!--HEADER -->
+
+    <header class="header-home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="../../equipe.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="material-icons text-warning">home</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html">Notre équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.materiel.net/">Nos produits</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid mt-5 pt-5">
+            <div class="row p-2 d-flex flex-column flex-md-row">
+
+                <div class="col-md container-fluid d-flex justify-content-center align-items-center order-3 order-md-1">
+                    <h4 class="order-3 text-info text-secondary">Materiel Informatique</h4>
+                </div>
+
+                <div class="col-md container-fluid d-flex justify-content-center align-items-center order-2 order-md-2">
+                    <h1 class="order-2  h2">S3J Multimedia</h1>
+                </div>
+
+                <div class="col-md container-fluid justify-content-center align-items-center text-center order-1 order-md-3">
+                    <figure class="d-flex justify-content-center align-items-center">
+                        <img class="logo w-25 p-2 " src="img/logo.png" alt="logo s3j" title="logo s3j">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--  MAIN   -->
+
+    <main class="container-fluid">
+
+        <div class="row d-flex justify-content-center mt-4 p-4">
+
+            <div class=" w-50 mx-auto ">
+                <h1 class="text-center">
+                    <i class="material-icons p-2 mr-3 mt-4 text-white Jicon">create</i>
+                    Contact
+                </h1>
+                <form class="d-flex flex-column align-items-stretch justify-content-center" name="mon-formulaire1"
+                    action="https://httpbin.org/post" method="post">
+
+                    <div class="row">
+
+                        <div class="custom-control custom-radio col-md-6 col-lg-2">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Mme</label>
+                        </div>
+
+                        <div class="custom-control custom-radio col-md-6 col-lg-2">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Mr</label>
+                        </div>
+
+                    </div>
+
+
+                    <p class="mt-3">
+
+                        Votre prénom :<br>
+                        <input class="form-control" type="text" name="prenom" value="">
+                    </p>
+
+                    <p>
+                        Votre nom :<br>
+                        <input class="form-control" type="text" name="nom" value="">
+                    </p>
+
+                    <p>
+                        Votre mail :<br>
+                        <input class="form-control" type="email" required name="mail" value="">
+                    </p>
+
+                    <p>
+                        Votre message :<br>
+                        <textarea class="form-control" name="le-message" placeholder="Vous pouvez saisir ici un message."
+                            rows="10" cols="40"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Annuler">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
