@@ -100,8 +100,11 @@ nav {
     color: rgb(35, 106, 224) ;
 }
 
-.jf-color{
-    background-color: #708090;
+.jf-color-bg{
+    background-color: #4169E1;
+}
+.jf-color-c{
+    color: #2F4F4F;
 }
 /*-----------------------------------------------------*/
 
