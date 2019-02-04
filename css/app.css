@@ -93,12 +93,18 @@ nav {
 .P85{
     width:85%;
 }
+.jpb-color-bg{
+    background-color: rgb(35, 106, 125);
+}
 .jpb-color{
-background-color: rgb(35, 106, 124) ;
+    color: rgb(35, 106, 224) ;
 }
 
-.jf-color{
-    background-color: #708090;
+.jf-color-bg{
+    background-color: #4169E1;
+}
+.jf-color-c{
+    color: #2F4F4F;
 }
 /*-----------------------------------------------------*/
 
